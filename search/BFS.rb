@@ -1,4 +1,4 @@
-require_relative 'UndirectedGraph.rb'
+require_relative 'undirected_graph.rb'
 
 # BFS 알고리즘
 def bfs(undirected_graph)
