@@ -1,6 +1,7 @@
 # 무방향 그래프, DFS 구현할 때 쓰길래 대충 만들었다. 방향과 비용을 설정할 수 있는 그래프는 따로 만들었다.
 class UndirectedGraph
   attr_accessor :vertex_list, :edge_list, :adjacency_list
+
   # 객체를 생성하면 정점 리스트, 간선 리스트, 인접 리스트와 count를 초기화 한다.
   def initialize
     @vertex_list = []
